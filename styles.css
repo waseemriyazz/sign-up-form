@@ -1,0 +1,67 @@
+:root{
+    --primary-color : rgb(58, 52, 52);
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+
+}
+
+body {
+    display: flex;
+    gap: 2vw
+}
+.left , .right{
+    background-color: var(--primary-color);
+    width: 20vw;
+    height: 100vh;
+}
+
+
+.image {
+   position: relative;
+    background-size: cover;
+    text-align: center;
+    width: 20vw;
+    
+}
+.main {
+    padding-top: 5vh ;
+    width: 40vw;
+    font-size: 3vh;
+}
+form {
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+    
+}
+.header {
+    position: absolute;
+    font-size: 4vh;
+    top: 15vh;
+    left: 5vw;
+    
+}
+p {
+    padding: 1vh;
+}
+.footer {
+    position: absolute;
+    bottom: 4vh;
+    font-size: 3vh;
+}
+button {
+    font-size: 2.5vh;
+}
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
