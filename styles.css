@@ -35,8 +35,6 @@ body {
 }
 form {
     
-    display: flex;
-    flex-direction: column;
     padding-bottom: 2vh;
     
 }
@@ -64,4 +62,13 @@ body {
     background-attachment: fixed;  
     background-size: cover;
   }
+   
+    
+  
+  .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
 
